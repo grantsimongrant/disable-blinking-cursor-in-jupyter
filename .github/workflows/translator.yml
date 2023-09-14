@@ -1,0 +1,5 @@
+    - uses: actions/checkout@v3
+    - uses: https://github.com/yunwei37/OpenAI-Continuous-Translator@master
+      with:
+          git_repo_url: https://github.com/grantsimongrant/disable-blinking-cursor-in-jupyter
+          api_key: ${{ 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 }}
